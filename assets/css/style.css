@@ -883,7 +883,7 @@ nav .container .search .show-search-field {
 .services .services--bg .services--main .nav-pills .nav-link .service--item .service--line .service--progress span {
 	font-size: 14px;
 	font-weight: 700;
-	color: var(--black);
+	color: var(--white);
 	padding: 5px 10px;
 	border-radius: 10px;
 	background-color: var(--primary);
@@ -927,7 +927,7 @@ nav .container .search .show-search-field {
 
 .services .services--bg .services--main .nav-pills .nav-link.active .service--arrow {
 	background-color: var(--primary);
-	color: var(--black);
+	color: var(--white);
 }
 
 .services .services--bg .services--main .nav-pills .nav-link.active .service--line {
@@ -1005,7 +1005,7 @@ nav .container .search .show-search-field {
 	font-size: 15px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: var(--black);
+	color: var(--white);
 	display: inline-block;
 	position: relative;
 	padding: 3px 12px;
@@ -1292,7 +1292,7 @@ nav .container .search .show-search-field {
 
 .testimonial .arrow:hover {
 	background-color: var(--primary);
-	color: var(--black);
+	color: var(--white);
 }
 
 .testimonial .arrow.left {
@@ -1354,6 +1354,7 @@ nav .container .search .show-search-field {
 	text-align: center;
 	padding: 5px 10px;
 	position: absolute;
+	color: var(--white);
 	top: 23px;
 	left: -44px;
 	transform: rotate(311deg);
@@ -1476,7 +1477,7 @@ nav .container .search .show-search-field {
 	width: 45px;
 	height: 45px;
 	background-color: var(--primary);
-	color: var(--black);
+	color: var(--white);
 	text-align: center;
 	line-height: 45px;
 	border-radius: 50%;
@@ -1617,7 +1618,7 @@ footer .footer--bg .footer--btm .text a {
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
-	color: #0A0B0F;
+	color: var(--white);
 	text-align: center;
 	border-radius: 5px;
 	position: fixed;
