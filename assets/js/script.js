@@ -1,14 +1,27 @@
 $(function () {
   "use strict";
 
-  $(window).on("load", function () {
-    var preloader = $('#preloader');
+  // $(window).on("load", function () {
+  //   var preloader = $('#preloader');
 
-    // Hide preloader and fade in content after a delay
-    setTimeout(function () {
-      preloader.fadeOut(500)
-    }, 0); // Change the delay value as per your requirement
+  //   // Hide preloader and fade in content after a delay
+  //   setTimeout(function () {
+  //     preloader.fadeOut(500)
+  //   }, 0); // Change the delay value as per your requirement
 
+  // });
+
+  // Fixed menu js start
+  $(window).on('scroll', function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 245) {
+      $("#sticky-header").removeClass("sticky-menu");
+      $("#header-fixed-height").removeClass("active-height");
+
+    } else {
+      $("#sticky-header").addClass("sticky-menu");
+      $("#header-fixed-height").addClass("active-height");
+    }
   });
 
   $(".banner").slick({
@@ -202,6 +215,20 @@ $(function () {
     loop: true
   });
 
+  // Get all the choose--list elements
+  const chooseListItems = document.querySelectorAll('.choose--list');
+
+  // Add event listeners for hover
+  chooseListItems.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+      // Remove active class from all choose--list elements
+      chooseListItems.forEach(listItem => {
+        listItem.classList.remove('active--list');
+      });
+      // Add active class to the hovered element
+      item.classList.add('active--list');
+    });
+  });
 
   // mobile menu js
   $('.mobile-topbar .bars i').click(function () {

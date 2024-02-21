@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Software Comapny</title>
+  <meta name="description" content="Software Comapny">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!-- Header area start -->
+  <div id="header-fixed-height"></div>
+  <header class="header_area" id="sticky-header">
+    <nav class="navbar navbar-expand-lg d-none d-xl-block">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="logo" width="140">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Pages <i class="fas fa-angle-down"></i></a>
+              <ul class="list-unstyled sub-dropdown-menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Our Process</a></li>
+                <li>
+                  <a href="">Sub Menu <i class="fas fa-angle-right float-end"></i></a>
+                  <ul class="list-unstyled sub-dropdown-menu">
+                    <li><a href="">Menu One</a></li>
+                    <li>
+                      <a href="">Menu Two <i class="fas fa-angle-right float-end"></i></a>
+                      <ul class="list-unstyled sub-dropdown-menu">
+                        <li><a href="">Menu Three</a></li>
+                        <li><a href="">Menu Four</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="">Pricing Plan</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">404</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="right-info d-flex align-items-center">
+            <div class="search">
+              <i class="fas fa-search main-icon"></i>
+              <div class="search-field">
+                <div class="container position-relative">
+                  <form action="#">
+                    <div class="input-groups">
+                      <input type="text" placeholder="Search...">
+                      <button type="submit" class="submit-btn">
+                        <i class="fas fa-search sub-icon"></i>
+                      </button>
+                    </div>
+                  </form>
+                  <button type="button" class="close-btn">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a href="contact-us.html" class="common--button mt-0">Start A Project</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- mobile navbar part start -->
+    <div class="mobile-menu d-block d-xl-none">
+      <div class="mobile-topbar">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <img src="assets/img/logo.png" alt="logo" width="100">
+            </div>
+            <div class="bars">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-main">
+        <div class="close-m-menu"><i class="fas fa-times"></i></div>
+        <div class="menu-body">
+          <div class="menu-list">
+            <ul class="list-unstyled">
+              <li class="sub-menu">
+                <a href="#">Home</a>
+              </li>
+              <li class="sub-menu">
+                <a href="#">About Us</a>
+              </li>
+              <li class="sub-menu"><a href="#">Pages <i class="fas fa-sort-down float-end"></i></a>
+                <ul class="list-unstyled">
+                  <li><a href="">Recipe Menu</a></li>
+                  <li><a href="">Reservation Form</a></li>
+                  <li><a href="">History</a></li>
+                  <li><a href="">Team</a></li>
+                  <li><a href="">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu"><a href="#">Shop <i class="fas fa-sort-down float-end"></i></a>
+                <ul class="list-unstyled">
+                  <li><a href="">Shop List</a></li>
+                  <li><a href="">Shop Sidebar</a></li>
+                  <li><a href="">Shop Details</a></li>
+                  <li><a href="">Shop Cart</a></li>
+                  <li><a href="">Shop Checkout</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu"><a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mobile navbar part end -->
+  </header>
+  <!-- Header area end -->
+
+  <!-- main area start -->
+  <main>
+
+    <!-- bread_crumb part start -->
+    <section class="bread_crumb">
+      <div class="container">
+        <div class="faq_content">
+          <div class="row">
+            <div class="col-md-7 align-self-center">
+              <h3>Our Team</h3>
+            </div>
+            <div class="col-md-5 align-self-center text-md-end">
+              <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li>Our Team</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bread_crumb part end -->
+
+    <!-- Team area start -->
+    <section class="our_team">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-1.png" alt="team-1" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-2.png" alt="team-2" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-3.png" alt="team-3" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-1.png" alt="team-1" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-2.png" alt="team-2" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-3.png" alt="team-3" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-2.png" alt="team-2" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-lg-3">
+            <div class="team_member_item">
+              <div class="image">
+                <img src="assets/img/team-3.png" alt="team-3" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h4>MD. Siam</h4>
+                <span>CEO, Chairman, Founder</span>
+                <div class="social">
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Team area end -->
+
+  </main>
+  <!-- main area end -->
+
+  <!-- scroll top area start -->
+  <button class="scroll-to-top">
+    <i class="fas fa-angle-up"></i>
+  </button>
+  <!-- scroll top area end -->
+  <a id="button"><i class="fas fa-angle-up"></i></a>
+
+  <!-- footer area start -->
+  <footer>
+    <div class="footer--bg">
+      <div class="container">
+        <div class="footer--top">
+          <div class="row">
+            <div class="col-lg-12 align-self-center">
+              <div class="social--links text-start">
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                  <li><a href=""><i class="fab fa-google"></i> Google</a></li>
+                  <li><a href=""><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i> Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer--main--content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer--about">
+                <h4>Have an idea
+                </h4>
+                <h4>Tell us about it</h4>
+                <ul class="list-unstyled">
+                  <li><a href="mailto:Info@Peacefulqode.com"><i class="far fa-envelope-open"></i>
+                      info@notech.com</a></li>
+                  <li>
+                    <a href="tel:+88-02-8110699"><i class="fas fa-phone-alt"></i> +88-02-811069914545</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-phone-alt"></i>Dhanmondi R/A, Dhaka, Bangladesh
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+              <div class="footer--links">
+                <h4 class="footer--title">Quick Links</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Our Services</a></li>
+                  <li><a href="">Technology</a></li>
+                  <li><a href="">Buisness</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Need A Career</a></li>
+                  <li><a href="">Ui/Ux Design</a></li>
+                  <li><a href="">Latest News</a></li>
+                  <li><a href="">Our Team</a></li>
+                  <li><a href="">Faq</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer--btm">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="text">
+                <p>&copy; All right reserved by <a href="">Your Technoligies</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text text-end">
+                <p>Developed by: <a href="">Company name</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+
+  <!-- JS here -->
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/slick-animation.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/anime.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

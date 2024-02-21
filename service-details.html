@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Software Comapny</title>
+  <meta name="description" content="Software Comapny">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+
+  <link rel="shortcut icon" type="image/x-icon" href="assets/">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/css/all.min.css">
+  <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.min.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!-- Header area start -->
+  <div id="header-fixed-height"></div>
+  <header class="header_area" id="sticky-header">
+    <nav class="navbar navbar-expand-lg d-none d-xl-block">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/img/logo.png" alt="logo" width="140">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Pages <i class="fas fa-angle-down"></i></a>
+              <ul class="list-unstyled sub-dropdown-menu">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">Our Team</a></li>
+                <li><a href="">Our Process</a></li>
+                <li>
+                  <a href="">Sub Menu <i class="fas fa-angle-right float-end"></i></a>
+                  <ul class="list-unstyled sub-dropdown-menu">
+                    <li><a href="">Menu One</a></li>
+                    <li>
+                      <a href="">Menu Two <i class="fas fa-angle-right float-end"></i></a>
+                      <ul class="list-unstyled sub-dropdown-menu">
+                        <li><a href="">Menu Three</a></li>
+                        <li><a href="">Menu Four</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="">Pricing Plan</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">404</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact-us.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="right-info d-flex align-items-center">
+            <div class="search">
+              <i class="fas fa-search main-icon"></i>
+              <div class="search-field">
+                <div class="container position-relative">
+                  <form action="#">
+                    <div class="input-groups">
+                      <input type="text" placeholder="Search...">
+                      <button type="submit" class="submit-btn">
+                        <i class="fas fa-search sub-icon"></i>
+                      </button>
+                    </div>
+                  </form>
+                  <button type="button" class="close-btn">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a href="contact-us.html" class="common--button mt-0">Start A Project</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- mobile navbar part start -->
+    <div class="mobile-menu d-block d-xl-none">
+      <div class="mobile-topbar">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <img src="assets/img/logo.png" alt="logo" width="100">
+            </div>
+            <div class="bars">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-main">
+        <div class="close-m-menu"><i class="fas fa-times"></i></div>
+        <div class="menu-body">
+          <div class="menu-list">
+            <ul class="list-unstyled">
+              <li class="sub-menu">
+                <a href="#">Home</a>
+              </li>
+              <li class="sub-menu">
+                <a href="#">About Us</a>
+              </li>
+              <li class="sub-menu"><a href="#">Pages <i class="fas fa-sort-down float-end"></i></a>
+                <ul class="list-unstyled">
+                  <li><a href="">Recipe Menu</a></li>
+                  <li><a href="">Reservation Form</a></li>
+                  <li><a href="">History</a></li>
+                  <li><a href="">Team</a></li>
+                  <li><a href="">FAQ</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu"><a href="#">Shop <i class="fas fa-sort-down float-end"></i></a>
+                <ul class="list-unstyled">
+                  <li><a href="">Shop List</a></li>
+                  <li><a href="">Shop Sidebar</a></li>
+                  <li><a href="">Shop Details</a></li>
+                  <li><a href="">Shop Cart</a></li>
+                  <li><a href="">Shop Checkout</a></li>
+                </ul>
+              </li>
+              <li class="sub-menu"><a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mobile navbar part end -->
+  </header>
+  <!-- Header area end -->
+
+  <!-- main area start -->
+  <main>
+
+    <!-- bread_crumb part start -->
+    <section class="bread_crumb">
+      <div class="container">
+        <div class="faq_content">
+          <div class="row">
+            <div class="col-md-7 align-self-center">
+              <h3>Service Details</h3>
+            </div>
+            <div class="col-md-5 align-self-center text-md-end">
+              <ul class="list-unstyled">
+                <li><a href="index.html">Home</a></li>
+                <li>Service Details</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- bread_crumb part end -->
+
+    <!-- service details area start -->
+    <section class="service-details">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="service-details-main">
+              <div class="image">
+                <img src="assets/img/service-details-image.png" alt="service-details-image" class="img-fluid w-100">
+              </div>
+              <div class="text">
+                <h3 class="service-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+                <p>
+                  Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros
+                  justo, posuere lobortis viverra laoreet augue mattis fermentum ullamcorper viverra lat Aliquam eros
+                  justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra .Aliquam eros a posuere
+                  lobortis non, viverraAliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere
+                  vierra .Aliquam eros justo, posuere lobortis viverra laoreet augue mattis fermentum ullamcorper
+                  viverra laoreet Aliquam eros justo, posuere loborti viverra laoreet matti ullamcorper posuere viverra
+                  .Aliquam eros justo, posuere lobortis non, viverraAliquam eros justo, posuere loborti
+                </p>
+                <div class="inner-content-image">
+                  <div class="row">
+                    <div class="col-6 col-sm-6">
+                      <div class="image">
+                        <img src="assets/img/service-details-inner-image-1.png" alt="service-details-inner-image-1"
+                          class="img-fluid w-100">
+                      </div>
+                      <div class="image">
+                        <img src="assets/img/service-details-inner-image-2.png" alt="service-details-inner-image-2"
+                          class="img-fluid w-100">
+                      </div>
+                    </div>
+                    <div class="col-6 col-sm-6">
+                      <div class="image">
+                        <img src="assets/img/service-details-inner-image-3.png" alt="service-details-inner-image-3"
+                          class="img-fluid w-100">
+                      </div>
+                      <div class="image">
+                        <img src="assets/img/service-details-inner-image-4.png" alt="service-details-inner-image-4"
+                          class="img-fluid w-100">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="service-info-block">
+                  <h3 class="service-inner-title">Our Capabilities</h3>
+                  <p>Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum quam. Id risus pharetra
+                    est,
+                    at rhoncus, nec ullamcorper tincidunt. Id aliquet duis sollicitudin diam.</p>
+                  <ul class="list-info list-unstyled">
+                    <li><i class="fas fa-check"></i> Aliquam eros justo, posuere loborti viverra laoreet matti
+                      ullamcorpeat</li>
+                    <li><i class="fas fa-check"></i>Aliquam eros justo, posuere loborti viverra laoreet matti
+                      ullamcorper posuere viverra </li>
+                    <li><i class="fas fa-check"></i> Aliquam eros justo, posuere loborti viverra laoreet matti
+                      ullamcorper posuere viverra
+                    </li>
+                    <li><i class="fas fa-check"></i>Aliquam eros justo, posuere loborti viverra laoreet matti</li>
+                    <li><i class="fas fa-check"></i>Aliquam eros justo, posuere loborti viverra laoreet
+                  </ul>
+                </div>
+                <div class="service-info-block">
+                  <h3 class="service-inner-title">Our Work Process</h3>
+                  <p>Massa volutpat odio facilisis purus sit elementum. Non, sed velit dictum quam. Id risus pharetra
+                    est,
+                    at rhoncus, nec ullamcorper tincidunt. Id aliquet duis sollicitudin diam.</p>
+                  <ul class="list-info list-unstyled">
+                    <li><i class="fas fa-check"></i> Aliquam eros justo, posuere loborti viverra laoreet matti
+                      ullamcorpeat</li>
+                    <li><i class="fas fa-check"></i>Aliquam eros justo, posuere loborti viverra laoreet matti
+                      ullamcorper posuere viverra </li>
+                    <li><i class="fas fa-check"></i> Aliquam eros justo, posuere loborti viverra laoreet matti
+                      ullamcorper posuere viverra
+                    </li>
+                    <li><i class="fas fa-check"></i>Aliquam eros justo, posuere loborti viverra laoreet matti</li>
+                    <li><i class="fas fa-check"></i>Aliquam eros justo, posuere loborti viverra laoreet
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blog-sidebar">
+              <div class="sidebar-block">
+                <h4>Search</h4>
+                <div class="search">
+                  <form action="#">
+                    <div class="input-groups position-relative">
+                      <input type="text" placeholder="Search Your Keyword">
+                      <button type="submit" class="position-absolute"><i class="bi bi-search"></i></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="sidebar-block">
+                <h4>Recent Blog</h4>
+                <div class="recent-blog d-flex">
+                  <div class="image">
+                    <img src="assets/img/cat_grid_03_12.jpg" alt="cat_grid_03_12" class="img-fluid w-100">
+                  </div>
+                  <div class="text align-self-center">
+                    <p>February 5, 2022</p>
+                    <a href="">Fashion News We Need</a>
+                  </div>
+                </div>
+                <div class="recent-blog d-flex">
+                  <div class="image">
+                    <img src="assets/img/cat_grid_03_09.jpg" alt="cat_grid_03_09" class="img-fluid w-100">
+                  </div>
+                  <div class="text align-self-center">
+                    <p>February 5, 2022</p>
+                    <a href="">Fashion News We Need</a>
+                  </div>
+                </div>
+                <div class="recent-blog d-flex">
+                  <div class="image">
+                    <img src="assets/img/cat_grid_03_10.jpg" alt="cat_grid_03_10" class="img-fluid w-100">
+                  </div>
+                  <div class="text align-self-center">
+                    <p>February 5, 2022</p>
+                    <a href="">Fashion News We Need</a>
+                  </div>
+                </div>
+              </div>
+              <div class="sidebar-block">
+                <h4>Categories</h4>
+                <div class="category">
+                  <ul class="list-unstyled">
+                    <li><a href="">Web Services <span>(7)</span></a></li>
+                    <li><a href="">Web Development <span>(12)</span></a></li>
+                    <li><a href="">Graphic Design<span>(0)</span></a></li>
+                    <li><a href="">Apps Development <span>(1)</span></a></li>
+                    <li><a href="">Digital Marketing <span>(6)</span></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sidebar-block">
+                <h4>Tags</h4>
+                <div class="tags">
+                  <ul class="list-unstyled">
+                    <li><a href="">Fashion</a></li>
+                    <li><a href="">Hats</a></li>
+                    <li><a href="">Bags</a></li>
+                    <li><a href="">Snacker</a></li>
+                    <li><a href="">Denim</a></li>
+                    <li><a href="">Sunglass</a></li>
+                    <li><a href="">Watch</a></li>
+                    <li><a href="">Mobile</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service details area end -->
+
+  </main>
+  <!-- main area end -->
+
+  <!-- scroll top area start -->
+  <button class="scroll-to-top">
+    <i class="fas fa-angle-up"></i>
+  </button>
+  <!-- scroll top area end -->
+  <a id="button"><i class="fas fa-angle-up"></i></a>
+
+  <!-- footer area start -->
+  <footer>
+    <div class="footer--bg">
+      <div class="container">
+        <div class="footer--top">
+          <div class="row">
+            <div class="col-lg-12 align-self-center">
+              <div class="social--links text-start">
+                <ul>
+                  <li><a href=""><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                  <li><a href=""><i class="fab fa-google"></i> Google</a></li>
+                  <li><a href=""><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                  <li><a href=""><i class="fab fa-youtube"></i> Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer--main--content">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="footer--about">
+                <h4>Have an idea
+                </h4>
+                <h4>Tell us about it</h4>
+                <ul class="list-unstyled">
+                  <li><a href="mailto:Info@Peacefulqode.com"><i class="far fa-envelope-open"></i>
+                      info@notech.com</a></li>
+                  <li>
+                    <a href="tel:+88-02-8110699"><i class="fas fa-phone-alt"></i> +88-02-811069914545</a>
+                  </li>
+                  <li>
+                    <i class="fas fa-phone-alt"></i>Dhanmondi R/A, Dhaka, Bangladesh
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 mx-auto">
+              <div class="footer--links">
+                <h4 class="footer--title">Quick Links</h4>
+                <ul class="list-unstyled">
+                  <li><a href="">Home</a></li>
+                  <li><a href="">Our Services</a></li>
+                  <li><a href="">Technology</a></li>
+                  <li><a href="">Buisness</a></li>
+                  <li><a href="">Contact Us</a></li>
+                  <li><a href="">Need A Career</a></li>
+                  <li><a href="">Ui/Ux Design</a></li>
+                  <li><a href="">Latest News</a></li>
+                  <li><a href="">Our Team</a></li>
+                  <li><a href="">Faq</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer--btm">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="text">
+                <p>&copy; All right reserved by <a href="">Your Technoligies</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="text text-end">
+                <p>Developed by: <a href="">Company name</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+
+  <!-- JS here -->
+  <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/slick-animation.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/anime.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
