@@ -646,7 +646,7 @@ nav .container .search .show-search-field {
 /* banner area */
 
 .banner .banner--item {
-	height: 91vh;
+	/* height: calc(100vh - 87px); */
 	background-position: center !important;
 	background-size: cover !important;
 	background-repeat: no-repeat !important;
@@ -2274,7 +2274,7 @@ footer .footer--bg .footer--main--content .footer--links ul li a:hover {
 
 footer .footer--bg .footer--btm {
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
-	padding: 10px 0;
+	padding: 20px 0;
 }
 
 footer .footer--bg .footer--btm .text p {
