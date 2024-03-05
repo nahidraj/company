@@ -26,6 +26,14 @@
   .testimonial .testimonial--bg .testimonial--main .testimonial--image::before {
     right: -45px;
   }
+
+  .contact .contact-information {
+    padding: 69px 38px;
+  }
+
+  .contact-map {
+    height: 450px;
+  }
 }
 
 @media (max-width:1199.98px) {
@@ -105,6 +113,10 @@
   .pricing--plan .pricing--plan--main .pricing--plan--item .list-info ul li {
     font-size: 13px;
   }
+
+  footer .footer--bg .footer--main--content .footer--about h4 {
+    font-size: 36px;
+  }
 }
 
 @media (max-width:991.98px) {
@@ -161,10 +173,39 @@
   footer .footer--bg .footer--main--content .footer--links {
     padding-top: 0;
   }
-  .footer--btm .text.text-end{
+
+  .footer--btm .text.text-end {
     text-align: left !important;
     margin-top: 10px;
   }
+
+  .contact .contact-information {
+    margin-top: 40px;
+  }
+
+  .bread_crumb .faq_content ul li {
+    padding: 0px;
+    margin: 0;
+    margin-right: 28px;
+  }
+
+  .bread_crumb .faq_content ul li::before {
+    right: -20px;
+  }
+
+  .bread_crumb .faq_content h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .contact .contact-information .contact-info-item+.contact-info-item {
+    margin-top: 30px;
+  }
+
+  .contact .contact-information .contact-info-item ul .title {
+    font-size: 17px;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -477,6 +518,10 @@
 
   .footer--btm .text {
     text-align: left !important;
+  }
+
+  footer .footer--bg .footer--main--content .footer--about h4 {
+    font-size: 28px;
   }
 }
 
